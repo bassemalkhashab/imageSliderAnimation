@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-image {
+    position: relative;
+    margin: auto;
+    width: 622.213px;
+    overflow: hidden;
+}
+
+.sliderimages {
+    display: flex;
+    height: 350px;
+}
+
+.title h2 {
+    text-align: center;
+    margin: 5em;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 5%;
+    color: white;
+    z-index: 1;
+    top: 50%;
+    opacity: 0.8;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.arrow-left {
+    position: absolute;
+    left: 5%;
+    color: white;
+    z-index: 1;
+    top: 50%;
+    opacity: 0.8;
+    font-size: 1.5em;
+    cursor: pointer;
+}
